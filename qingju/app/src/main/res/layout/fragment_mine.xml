@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:stv="http://schemas.android.com/tools"
+    android:background="@color/beijingse">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="197dp"
+            android:background="@mipmap/wode_beijing">
+
+            <com.allen.library.CircleImageView
+                android:id="@+id/circleImageView2"
+                android:layout_width="63dp"
+                android:layout_height="63dp"
+                android:layout_alignParentBottom="true"
+
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="55dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginStart="19dp"
+                android:src="@color/touming"
+                app:sShapeCornersRadius="5dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/circleImageView2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/touming"
+                android:layout_toEndOf="@+id/circleImageView2"
+                android:layout_toRightOf="@+id/circleImageView2"
+                android:text="云债宝"
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="150dp"
+                android:orientation="vertical">
+
+                <com.allen.library.SuperTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    app:sDividerLineHeight="0.5dp"
+                    app:sDividerLineType="bottom"
+                    app:sLeftTextGravity="center"
+                    app:sLeftTextSize="16dp"
+                    app:sLeftTextString="债权转让"
+                    app:sRightIconRes="@mipmap/wode_jiantou" />
+
+                <com.allen.library.SuperTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    app:sDividerLineHeight="0.5dp"
+                    app:sDividerLineType="top"
+                    app:sLeftTextGravity="center"
+                    app:sLeftTextSize="16dp"
+                    app:sLeftTextString="债权返现"
+                    app:sRightIconRes="@mipmap/wode_jiantou" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:orientation="vertical">
+
+                <com.allen.library.SuperTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    app:sDividerLineHeight="0.5dp"
+                    app:sDividerLineType="bottom"
+                    app:sLeftTextGravity="center"
+                    app:sLeftTextSize="16dp"
+                    app:sLeftTextString="我买到的"
+                    app:sRightIconRes="@mipmap/wode_jiantou" />
+
+                <com.allen.library.SuperTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    app:sDividerLineHeight="0.5dp"
+                    app:sDividerLineType="top"
+                    app:sLeftTextGravity="center"
+                    app:sLeftTextSize="16dp"
+                    app:sLeftTextString="我卖出的"
+                    app:sRightIconRes="@mipmap/wode_jiantou" />
+            </LinearLayout>
+
+            <com.allen.library.SuperTextView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+
+                app:sDividerLineHeight="10dp"
+                android:layout_below="@+id/linearLayout"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.allen.library.SuperTextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="139dp"
+        app:sDividerLineHeight="10dp"
+        android:id="@+id/superTextView" />
+
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/superTextView"
+        android:layout_marginTop="11dp"
+        android:orientation="vertical">
+
+        <com.allen.library.SuperTextView
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            app:sDividerLineHeight="0.5dp"
+            app:sDividerLineType="bottom"
+            app:sLeftTextGravity="center"
+            app:sLeftTextSize="16dp"
+            app:sLeftTextString="商家入驻"
+            app:sRightIconRes="@mipmap/wode_jiantou" />
+
+        <com.allen.library.SuperTextView
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            app:sDividerLineHeight="0.5dp"
+            app:sDividerLineType="top"
+            app:sLeftTextGravity="center"
+            app:sLeftTextSize="16dp"
+            app:sLeftTextString="申请代理"
+            app:sRightIconRes="@mipmap/wode_jiantou" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="101dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="119dp"
+        android:textSize="16dp"
+        android:text="1850674946"
+        android:textColor="@color/touming"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:textSize="20dp"
+        android:textColor="@color/touming"
+        android:text="我的" />
+
+    <ImageView
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="30dp"
+
+        app:srcCompat="@mipmap/wode_shezhi" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView5"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="25dp"
+        android:textSize="15dp"
+        android:textColor="@color/touming"
+        android:text="余额：" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_toEndOf="@+id/textView7"
+        android:layout_toRightOf="@+id/textView7"
+        android:textSize="15dp"
+        android:textColor="@color/touming"
+        android:text="30000" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView8"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_alignEnd="@+id/imageButton"
+        android:layout_alignRight="@+id/imageButton"
+        android:textSize="15dp"
+        android:textColor="@color/touming"
+        android:text="充值" />
+
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mayn.qingju.MainActivity"
+    >
+    <RelativeLayout
+
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+
+        tools:layout_constraintLeft_creator="1"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+>
+
+
+
+        <RadioGroup
+
+            android:id="@+id/rd_group"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+
+            android:orientation="horizontal">
+            <RadioButton
+
+
+                android:id="@+id/rd_menu_shop"
+                style="@style/tab_menu_item"
+                android:drawableTop="@drawable/tab_menu_deal"
+                android:text="商城"/>
+
+            <RadioButton
+
+                android:id="@+id/rd_menu_assignment"
+                style="@style/tab_menu_item"
+                android:drawableTop="@drawable/tab_menu_assignment"
+                android:text="转让"/>
+
+            <RadioButton
+
+                android:id="@+id/rd_menu_cashback"
+                style="@style/tab_menu_item"
+                android:drawableTop="@drawable/tab_menu_cashback"
+                android:text="返现"/>
+
+            <RadioButton
+
+                android:id="@+id/rd_menu_mine"
+                style="@style/tab_menu_item"
+                android:drawableTop="@drawable/tab_menu_mine"
+                android:text="我的"/>
+        </RadioGroup>
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/rd_group"
+
+            >
+        </FrameLayout>
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

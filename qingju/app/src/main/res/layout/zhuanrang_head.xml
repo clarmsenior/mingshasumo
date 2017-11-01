@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
+
+    <RelativeLayout
+        android:background="@color/touming"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:id="@+id/relativeLayout2"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="姓名"
+            android:textColor="@color/black"
+            android:textSize="16dp"/>
+        <EditText
+            android:paddingLeft="45dp"
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:hint="(必填)"/>
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:background="@color/divider_line_color"
+            android:layout_width="match_parent"
+
+            android:layout_height="0.5dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="@color/touming"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout3">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="身份证"
+            android:textColor="@color/black"
+            android:textSize="16dp"/>
+        <EditText
+            android:paddingLeft="60dp"
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:hint="(必填)"/>
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:background="@color/divider_line_color"
+            android:layout_width="match_parent"
+
+            android:layout_height="0.5dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="@color/touming"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/relativeLayout3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:text="债务查询"
+            android:textColor="@color/touming"
+            android:background="@drawable/shape_zhaiwu"
+
+
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+    </RelativeLayout>
+</RelativeLayout>

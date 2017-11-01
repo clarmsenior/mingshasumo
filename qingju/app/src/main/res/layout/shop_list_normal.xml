@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="180dp"
+    android:layout_height="254dp"
+    android:orientation="horizontal"
+    android:background="#F3F5F9"
+    >
+
+    <LinearLayout
+
+        android:id="@+id/line_normal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="6dp">
+
+        <ImageView
+
+            android:id="@+id/item_iv_recy"
+            android:layout_width="177dp"
+            android:layout_height="181dp"
+            app:srcCompat="@mipmap/ic_launcher" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="57dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="12dp">
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/tv_phonename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="华为mata10"
+            android:textColor="#333333"
+            android:textSize="17sp"
+            android:paddingTop="5dp"
+            android:layout_marginLeft="13dp"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/tv_phoneprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="￥999"
+            android:paddingTop="5dp"
+            android:textColor="#F64161"
+            android:layout_marginLeft="13dp"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
